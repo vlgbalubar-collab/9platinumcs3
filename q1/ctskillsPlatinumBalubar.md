@@ -47,5 +47,67 @@ Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 
 INPUT:
 
+START CanteenOrderingSystem
 
+    // Step 1: Initialize Canteen Menu Items and Stock
+    CREATE ARRAY FoodMenu = ["Meal A", "Meal B", "Snack C", "Drink D"]
+    CREATE ARRAY Prices   = [50, 40, 20, 15]
+    CREATE ARRAY Stock    = [30, 25, 50, 40]
+    
+    DISPLAY "--- Welcome to the PSHS Canteen ---"
+    
+    // Step 2: Digital Menu Display (Solves Sub-Problem 1: Slow Decision Making)
+    FOR EACH item, price IN FoodMenu, Prices
+        DISPLAY item + " - Php " + price
+    END FOR
+
+    // Step 3: Student Pre-Order System (Solves Sub-Problem 3 & 4: Line Organization)
+    PRINT "Assign student to Queue Line A, B, or C based on arrival order"
+    
+    INITIALIZE TotalCost = 0
+    INITIALIZE OrderingFinished = FALSE
+    
+    WHILE OrderingFinished IS FALSE DO
+        INPUT SelectedItem
+        
+        IF SelectedItem IS IN FoodMenu THEN
+            GET Index OF SelectedItem
+            
+            // Check Inventory (Solves Inventory Tracking)
+            IF Stock[Index] > 0 THEN
+                TotalCost = TotalCost + Prices[Index]
+                Stock[Index] = Stock[Index] - 1
+                PRINT SelectedItem + " added to order."
+            ELSE
+                PRINT "Sorry, " + SelectedItem + " is OUT OF STOCK."
+            END IF
+        ELSE
+            PRINT "Invalid item. Please select from the menu."
+        END IF
+        
+        INPUT "Do you want to add another item? (YES/NO)", Choice
+        IF Choice IS "NO" THEN
+            OrderingFinished = TRUE
+        END IF
+    END WHILE
+
+    // Step 4: Automated Payment & Change Calculation (Solves Sub-Problem 2: Staff Workload)
+    DISPLAY "Total Amount Due: Php " + TotalCost
+    
+    REPEAT
+        INPUT PaymentAmount
+        IF PaymentAmount < TotalCost THEN
+            PRINT "Insufficient payment. Please provide enough cash."
+        END IF
+    UNTIL PaymentAmount >= TotalCost
+
+    COMPUTE Change = PaymentAmount - TotalCost
+    DISPLAY "Payment Accepted. Your Change: Php " + Change
+
+    // Step 5: Issue Order Receipt and Ticket Number
+    GENERATE QueueTicketNumber
+    PRINT "Order Confirmed! Your Queue Number is: " + QueueTicketNumber
+    PRINT "Please proceed to the pick-up counter when your number is called."
+
+END CanteenOrderingSystem
 
