@@ -7,7 +7,7 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
-
+[View Computational Thinking Skills Activity]q1/(ctskillsPlatinumBalubar.md)
 ### Chinese Zodiac
-
+[View Chinese Zodiac Activity](q1/zodiacPlatinumBalubar.py)
 
