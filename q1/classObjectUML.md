@@ -15,6 +15,8 @@
 |save()  |It tells the game to be saved into a file during an important progress point   |
 ## Class Diagram
 <img width="722" height="408" alt="Screenshot 2026-09-02 212415" src="https://github.com/user-attachments/assets/6b046fdb-0d8c-4516-a1e4-62a4a76eb7af" />
+
+
 ## Design Explanation
 ### Why did you choose this class? 
 Because gaming has been helpful to me whenever I get stressed or just to pass the time. It also taught me several life skills like patience, determination, and strategy. 
