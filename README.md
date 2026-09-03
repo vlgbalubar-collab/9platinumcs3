@@ -16,5 +16,5 @@
 [View ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
  ***Date Aug 20, 2026***
 ### OOPAct
-[View OOPAct](q1/clasObjectUML.md)
+[View OOPAct](q1/classObjectUML.md)
  ***Date Sep 2, 2026***
