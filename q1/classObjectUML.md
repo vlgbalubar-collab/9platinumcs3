@@ -10,9 +10,9 @@
 ## Methods
 | Method |                                 Description                                   |
 |--------|-------------------------------------------------------------------------------|
-
 |play()  |It tells the game to run to be played by the user                              |
 |save()  |It tells the game to be saved into a file during an important progress point   |
+|end()   |It tells the game to end the run to prevent overheating or crashing            |
 ## Class Diagram
 <img width="722" height="408" alt="Screenshot 2026-09-02 212415" src="https://github.com/user-attachments/assets/6b046fdb-0d8c-4516-a1e4-62a4a76eb7af" />
 
