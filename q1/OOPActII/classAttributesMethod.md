@@ -21,7 +21,6 @@ Changes from my previous design:
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation
-
 [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](q1/OOPActII/images/images)
