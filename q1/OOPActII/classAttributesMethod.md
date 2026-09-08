@@ -1,3 +1,7 @@
+# Previous Work
+[
+
+
 ## Design Revision
 Changes from my previous design:
 - Renamed the class from generic `Steam` to `SteamGame` to explicitly identify it as a blueprint for individual games.
