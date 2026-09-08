@@ -24,7 +24,7 @@ Changes from my previous design:
 
 [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](images/classTestRun.png)
+![Test Run](q1/OOPActII/images/images)
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
 
