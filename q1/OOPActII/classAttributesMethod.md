@@ -23,7 +23,7 @@ Changes from my previous design:
 ## Python Implementation
 [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](q1/OOPActII/images/images/classTestrun.png.png)
+![Test Run](q1/OOPActII/images/classTestrun.png.png)
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
 
