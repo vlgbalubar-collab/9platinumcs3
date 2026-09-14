@@ -15,14 +15,13 @@ A Steam game HAS-A/an achievement. It means that every game has achievements to 
 Steam Game 1 ------------- 1... Achievement Explanation: A Steam can have only one achievement, mostly for beating the game.
 
 # UML Class Relationship Diagram
-
+[View](q1/OOPActIII/images/classRelationshipDiagram.png)
 # Python Implementation
 [View](q1/OOPActIII/classRelationships.py)
-
 # Test Run
-
+[View](q1/OOPActIII/images/classTestRun.png)
 # Object Relationship Diagram
-
+[View](q1/OOPActIII/images/objectRelationshipDiagram.png)
 ## Analysis
 
 1. What is the association between your two classes? Explain the relationship using your actual system.
