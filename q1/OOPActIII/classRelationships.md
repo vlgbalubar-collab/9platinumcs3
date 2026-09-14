@@ -8,7 +8,7 @@ Class: Steam Games: A collection of games from the gaming platform, based on the
 Class: Achievements: An object that recognizes your excellence, hard work, and participation in the game.
 
 # Association
-Almost every game in Steam has achievements. It means that every game has achievements to recognize the players' participation and planting the goal to have more. 
+A Steam game HAS-A/an achievement. It means that every game has achievements to recognize the players' participation and planting the goal to have more. 
 
 # Multiplicity
 
