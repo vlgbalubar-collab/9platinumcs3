@@ -38,4 +38,12 @@ Explanation: This is a Composition relationship because a SteamGame directly own
 
 # Reflection
 
-1. 
+1. I chose SteamGames as the child class of the VideoGames classed because SteamGame IS-A VideoGame basically. It has all the characteristics like being playable, many categories, and many more. Its just that VideoGames is just a broader class that SteamGames.
+
+2. Inheritance allowed SteamGames to automatically reuse the GameName and ReleaseDate attributes along with the view() and install() methods directly from VideoGames. This eliminated the need to re-write the setup and installation logic in the child class.
+
+3. It is Composition because Achievements instances are tightly chained to the lifecycle of the parent SteamGame. If a SteamGame object is deleted or uninstalled, all achievement instances are destroyed along with it.
+
+4. Association represents a loose, independent relationship where objects can exist on their own without owning each other. On the other hand, this Composition design creates a strong, parent-child dependency where the part cannot exist without the whole.
+
+5. Inheriting shared properties from VideoGames and encapsulating achievement logic inside its own respected class, common code is defined in one place rather than being duplicated. This keeps the codebase maintainable, organized logic.
