@@ -13,19 +13,23 @@ Explanation: VideoGames is the parent because SteamGames IS-A VideoGames. With t
 
 # Inheritance UML
 
-C:\Users\VICTUS\Pictures\Screenshots\Screenshot 2026-09-24 214551.png
+<img width="165" height="376" alt="Screenshot 2026-09-24 214551" src="https://github.com/user-attachments/assets/565b0744-0c8e-4ceb-9437-e781691099d5" />
+
+# Composition/Aggregation
+
 
 # Advanced UML Diagram
 
+<img width="560" height="407" alt="Screenshot 2026-09-24 214957" src="https://github.com/user-attachments/assets/133fb0fb-31df-4886-8de3-6b598ad0cbf0" />
 
 # Python Implementation Diagram
 
 
 # Test Run
 
-
 # Object Diagram
 
+<img width="627" height="301" alt="Screenshot 2026-09-24 220257" src="https://github.com/user-attachments/assets/7674bfba-1c02-4483-9c1a-9e75f193222f" />
 
 # Reflection
 
