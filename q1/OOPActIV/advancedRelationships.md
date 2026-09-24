@@ -26,8 +26,11 @@ Explanation: This is a Composition relationship because a SteamGame directly own
 
 # Python Implementation Diagram
 
+[View](q1/OOPActIV/advancedRelationships.py)
 
 # Test Run
+
+<img width="1917" height="887" alt="Screenshot 2026-09-24 222831" src="https://github.com/user-attachments/assets/410b3ac2-dfb3-4cf3-b2ae-21caef12574d" />
 
 # Object Diagram
 
