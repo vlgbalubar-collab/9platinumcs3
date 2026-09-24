@@ -4,13 +4,12 @@ class Achievements:
         self.description = description
         self.level_of_status = level_of_status
         self.reward = reward
-        self.__username = username  # Private attribute (-)
+        self.__username = username  
 
     def display_achievement(self):
         print(f"Achievement: {self.achievement_name} | {self.description} | Reward: {self.reward}")
 
 
-# NEW PARENT CLASS (Step 2)
 class VideoGames:
     def __init__(self, game_name: str, release_date: str):
         self.gamename = game_name
@@ -22,23 +21,18 @@ class VideoGames:
     def install(self):
         print(f"Installing {self.gamename}...")
 
-
-# CHILD CLASS (Inherits VideoGames)
 class SteamGame(VideoGames):
     def __init__(self, game_name: str, release_date: str, developer: str, game_type: str, total_storage_gb: int, finance_records: int):
-        # Reusing parent class initialization
         super().__init__(game_name, release_date)
         
         self.developer = developer
         self.gametype = game_type
         self.totalstoragegb = total_storage_gb
-        self.__financerecords = finance_records  # Private attribute (-)
+        self.__financerecords = finance_records 
         self.is_running = False
         
-        # Composition container for achievements
         self.achievements: list[Achievements] = []
 
-    # COMPOSITION: SteamGame creates its own achievements directly
     def create_achievement(self, achievement_name: str, description: str, level_of_status: str, reward: str, username: str):
         new_achievement = Achievements(achievement_name, description, level_of_status, reward, username)
         self.achievements.append(new_achievement)
