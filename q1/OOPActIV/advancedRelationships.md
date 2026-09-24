@@ -17,6 +17,8 @@ Explanation: VideoGames is the parent because SteamGames IS-A VideoGames. With t
 
 # Composition/Aggregation
 
+Relationship: Composition (HAS-A)
+Explanation: This is a Composition relationship because a SteamGame directly owns and creates its Achievements instances. An Achievements instance is not independent of its parent game. If a SteamGame is uninstalled, all made achievements inside its achievements list are destroyed alongside the game.
 
 # Advanced UML Diagram
 
