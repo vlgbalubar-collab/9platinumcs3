@@ -4,9 +4,6 @@ class BankAccount:
   self._balance = 0.0
   self.balance = balance
 
-def account_number(self):
-  return self._account_number
+def self._account_number
 
-def balance(self):
-  return self._balance
-  
+
