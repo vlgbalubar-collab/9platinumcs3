@@ -27,3 +27,9 @@
  ### OOPAct IV
 [View OOPActIV](q1/OOPActIV)
  ***Date: Sep 24, 2026***
+---
+# Quarter 2
+## Activities
+### Encapsulation
+[View Encapsulation](q2/sg8_encapsulation.py)
+***Date: Oct 8, 2026*** 
