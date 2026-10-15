@@ -33,3 +33,8 @@
 ### Encapsulation
 [View Encapsulation](q2/sg8_encapsulation.py)
 ***Date: Oct 8, 2026*** 
+### Inheritance
+[View Inheritance](q2/sg8_inheritance.py)
+***Date: Oct 15, 2026*** 
+
+
