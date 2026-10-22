@@ -36,5 +36,7 @@
 ### Inheritance
 [View Inheritance](q2/sg8_inheritance.py)
 ***Date: Oct 15, 2026*** 
-
+### Method Overriding
+[View Method Overriding](q2/sg10_methodoveriding.py)
+***Date: Oct 22, 2026***
 
