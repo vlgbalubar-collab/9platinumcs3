@@ -40,8 +40,8 @@
 [View Method Overriding](q2/sg10_methodoveriding.py)
 ***Date: Oct 22, 2026***
 ### Activity 1 Polymorphism
-[View Method Overriding](q2/act1_sg11polymorphism.py)
+[View Act 1](q2/act1_sg11polymorphism.py)
 ***Date: Nov 19, 2026***
 ### Activity 2 Polymorphism
-[View Method Overriding](q2/act1_sg11polymorphism.py)
+[View Act 2](q2/act1_sg11polymorphism.py)
 ***Date: Nov 19, 2026***
